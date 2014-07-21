@@ -1,13 +1,15 @@
 {
-  "name"          : "backbone",
-  "version"       : "1.1.2",
-  "description"   : "Give your JS App some Backbone with Models, Views, Collections, and Events.",
-  "keywords"      : ["model", "view", "controller", "router", "server", "client", "browser"],
-  "repo"          : "jashkenas/backbone",
+  "name"          : "backboner",
+  "version"       : "0.1.0",
+  "description"   : "Backbone, reduced.",
+  "keywords"      : ["model", "client", "browser"],
+  "repo"          : "jordansexton/backboner",
   "dependencies"  : {
-    "jashkenas/underscore"  : "*"
+    "lodash/lodash"           : "*",
+    "visionmedia/superagent"  : "*",
+    "petkaantonov/bluebird"   : "*"
   },
-  "main"          : "backbone.js",
-  "scripts"       : ["backbone.js"],
+  "main"          : "backboner.js",
+  "scripts"       : ["backboner.js"],
   "license"       : "MIT"
 }
