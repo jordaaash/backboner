@@ -33,8 +33,16 @@ Backboner uses [bluebird](https://github.com/petkaantonov/bluebird) Promises ins
 
 * No Backbone.Events. Backboner uses [EventEmitter2](https://github.com/asyncly/EventEmitter2) derived from [Node](https://github.com/joyent/node) instead.
 
-* No tests! Backboner is not recommended for production use.
+* No AMD loader or monolithic file. Backboner uses modules and [browserify](https://github.com/substack/node-browserify).
 
-Thanks to [TJ Holowaychuk](https://github.com/visionmedia) for superagent, [John-David Dalton](https://github.com/jdalton) for LoDash, [Petka Antonov](https://github.com/petkaantonov) for bluebird, and [Paolo Fragomeni](https://github.com/hij1nx) for EventEmitter2.
+* No tests! (Yet.) Backboner is not recommended for production use.
+
+Thanks to:
+
+* [TJ Holowaychuk](https://github.com/visionmedia) for superagent
+* [John-David Dalton](https://github.com/jdalton) for LoDash
+* [Petka Antonov](https://github.com/petkaantonov) for bluebird
+* [Paolo Fragomeni](https://github.com/hij1nx) for EventEmitter2
+* [James Halliday](https://github.com/substack) for browserify
 
 Special thanks to [Jeremy Ashkenas](https://github.com/jashkenas) for the original Backbone behind Backboner.
