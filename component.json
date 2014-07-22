@@ -1,15 +1,16 @@
 {
-  "name"          : "backboner",
-  "version"       : "0.1.0",
-  "description"   : "Backbone, reduced.",
-  "keywords"      : ["model", "client", "browser"],
-  "repo"          : "jordansexton/backboner",
-  "dependencies"  : {
-    "lodash/lodash"           : "*",
-    "visionmedia/superagent"  : "*",
-    "petkaantonov/bluebird"   : "*"
-  },
-  "main"          : "backboner.js",
-  "scripts"       : ["backboner.js"],
-  "license"       : "MIT"
+    "name":         "backboner",
+    "version":      "0.1.0",
+    "description":  "Backbone, reduced.",
+    "keywords":     ["model", "client", "browser"],
+    "repo":         "jordansexton/backboner",
+    "dependencies": {
+        "lodash/lodash":          "*",
+        "visionmedia/superagent": "*",
+        "petkaantonov/bluebird":  "*",
+        "asyncly/EventEmitter2":  "*"
+    },
+    "main":         "backboner.js",
+    "scripts":      ["backboner.js"],
+    "license":      "MIT"
 }

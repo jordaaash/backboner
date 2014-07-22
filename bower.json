@@ -1,11 +1,12 @@
 {
-  "name"          : "backboner",
-  "version"       : "0.1.0",
-  "main"          : "backboner.js",
-  "dependencies"  : {
-    "lodash"      : ">=2.4.1",
-    "superagent"  : ">=0.18.2",
-    "bluebird"    : ">=2.2.2"
-  },
-  "ignore"        : ["backboner-min.js", "*.map", "*.md"]
+    "name":         "backboner",
+    "version":      "0.1.0",
+    "main":         "backboner.js",
+    "dependencies": {
+        "lodash":        ">=2.4.1",
+        "superagent":    ">=0.18.2",
+        "bluebird":      ">=2.2.2",
+        "eventemitter2": ">=0.4.14"
+    },
+    "ignore":       ["backboner-min.js", "*.map", "*.md"]
 }
