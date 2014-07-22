@@ -31,10 +31,10 @@ Otherwise, check out the excellent [page.js](https://github.com/visionmedia/page
 * No callbacks. Callbacks are annoying, but jQuery's `options.success` and `options.error` are awful.
 Backboner uses [bluebird](https://github.com/petkaantonov/bluebird) Promises instead.
 
-* No Backbone.Events. Backboner uses [EventEmitter](https://github.com/Gozala/events) from [Node](https://github.com/joyent/node) instead.
+* No Backbone.Events. Backboner uses [EventEmitter2](https://github.com/asyncly/EventEmitter2) derived from [Node](https://github.com/joyent/node) instead.
 
 * No tests! Backboner is not recommended for production use.
 
-Thanks to [TJ Holowaychuk](https://github.com/visionmedia) for superagent, [John-David Dalton](https://github.com/jdalton) for LoDash, [Petka Antonov](https://github.com/petkaantonov) for bluebird, and [Irakli Gozalishvili](https://github.com/Gozala) & [Joyent](https://github.com/joyent) for EventEmitter & Node.
+Thanks to [TJ Holowaychuk](https://github.com/visionmedia) for superagent, [John-David Dalton](https://github.com/jdalton) for LoDash, [Petka Antonov](https://github.com/petkaantonov) for bluebird, and [Paolo Fragomeni](https://github.com/hij1nx) for EventEmitter2.
 
 Special thanks to [Jeremy Ashkenas](https://github.com/jashkenas) for the original Backbone behind Backboner.
