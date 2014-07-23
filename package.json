@@ -1,6 +1,6 @@
 {
     "name":            "backboner",
-    "description":     "Backbone, reduced.",
+    "description":     "Backbone, revised.",
     "url":             "https://github.com/jordansexton/backboner",
     "keywords":        ["model", "client", "browser"],
     "author":          "Jordan Sexton <jordan@jordansexton.com>",
@@ -11,6 +11,8 @@
         "eventemitter2": ">=0.4.14"
     },
     "devDependencies": {
+        "backbone":   "git://github.com/jashkenas/backbone.git",
+        "bookshelf":  "git://github.com/tgriesser/bookshelf.git",
         "browserify": ">=4.2.3"
     },
     "scripts":         {
