@@ -1,7 +1,7 @@
 {
     "name":         "backboner",
     "version":      "0.1.0",
-    "description":  "Backbone, reduced.",
+    "description":  "Backbone, revised.",
     "keywords":     ["model", "client", "browser"],
     "repo":         "jordansexton/backboner",
     "dependencies": {
